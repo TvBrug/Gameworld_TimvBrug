@@ -1,0 +1,273 @@
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.clearfix{
+    clear: both;
+}
+
+#logo{
+    font-size: 37px;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-left: 70px;
+    list-style: none;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 225px;
+}
+
+#logo-image{
+    float: right;
+}
+
+#main-container{
+    width:1000px;
+    margin: 0 auto;
+}
+
+#container-menu{
+    width:1000px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 10px;
+}
+
+.menu{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.menu a{
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.menu li a{
+    display: inline-block;
+    width: 100px;
+    padding: 15px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    align-content: center;
+    font-weight: bold;
+}
+
+.menu li a:hover{
+background-color: grey;
+}
+
+#container-image{
+    width:1000px;
+    margin-left:40px;
+    background-color: black;
+    padding: 10px;
+}
+
+#banner{
+    height: auto;
+    width: auto;
+    padding: 10px;
+}
+
+.consoles{
+    padding: 10px;
+    float: left;
+    padding-right: 180px;
+}
+
+#consoles1{
+    padding: 10px;
+    float: right;
+}
+
+#banner-text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 380px;
+}
+
+#banner-text2 {
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top: 410px;
+}
+
+#banner-logo {
+    top: 150px;
+    left: 1080px;
+    position: absolute;
+}
+
+#banner-logo1 {
+    top: 170px;
+    left: 1080px;
+    position: absolute;
+}
+
+#container-table {
+    font-family: Blippo;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#container-table td th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#container-table {background-color: #f2f2f2;}
+
+#container-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#container-table tfoot td{
+    background-color: #4CAF50;
+    text-align: right;
+    font-size: 20px;
+    color: white;
+}
+
+#container-table tbody tr:nth-child(odd) { 
+    background-color: #ccc;
+}
+
+.footer {
+    position: relative;
+    left: 40px;
+    top: 10px;
+    width: 1020px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.footer1 {
+    position: relative;
+    left: -10px;
+    top: 20px;
+    width: 1020px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+#order-button {
+    background-color: #4CAF50;
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 897px;
+    top: 10px;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+}
+
+.header-about {
+    color: white;
+    font-size: 20px;
+}
+
+#text-about {
+    color: white;
+    font-size: 15px;
+}
+#contact-text {
+    color: white;
+    font-size: 15px;
+    list-style: none;
+}
+
+#submit-button {
+    background-color: white;
+    text-align: center;
+    color: black;
+    position: relative;
+    left: 150px;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+}
+
+#products-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.product-item {
+  background-color: black;
+  width: 220px;
+  height: 350px;
+  border: 4px solid grey;
+  float: left;
+  margin-top: 15px;
+  margin-left: 20px;
+  position: relative;
+  color: #fff;
+}
+.product-item img {
+  width: 220px;
+  height: 220px;
+  background-position: center;
+}
+
+.order-button {
+  width: 218px;
+  height: 40px;
+  position: absolute;
+  bottom: 0px;
+  background-color: green;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.price {
+  width: 50px;
+  height: 25px;
+  background-color: black;
+  color: #fff;
+  position: absolute;
+  top: 188px;
+  right: 0px;
+  border: 1px solid white;
+}
+.name {
+  position: absolute;
+  font-size: 24px;
+  font-family: Blippo;
+}
+
+.product-description {
+    left: 0px;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: Blippo;
+}
+
+#idcat_name{ 
+    text-align: center;
+ }
+
+h2  {
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    color: white;
+} 
